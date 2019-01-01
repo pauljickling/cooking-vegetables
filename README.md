@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cooking Vegetables
 
-## Available Scripts
+An infographic developed in React that shows the various cooking techniques available for vegetables throughout the seasons.
 
-In the project directory, you can run:
+## Motivation
 
-### `npm start`
+I created this project based on two motivations.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. The information came from the book *Salt, Fat, Acid, Heat* by Samin Nosrat. While the book features a ton of wonderful information and illustrations, I felt this particular chart was lacking in clarity due to the unfortunate choice to have all of the colors used to be various greens. As someone that suffers from partial colorblindness, it was immediately apparent to me that this information could be rendered in a more accessible fashion.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+2. For the last half year I have been living in Python land, and I wanted to work on a quick project in Javascript just so I wouldn't forget the fundamentals.
 
-### `npm test`
+## Why React?
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I wrote this project in React. In some ways it is slight overkill, but in others it is the perfect tool for the job. Since this is primarily a UI project, React is certainly an appropriate tool however. Thanks to how React structures components to be rendered, I figure if I decide to improve on the UI it will be easy enough to make changes without having to rewrite everything.
