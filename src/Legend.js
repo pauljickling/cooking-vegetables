@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
-const Legend = () => ( <h1>Legend</h1> );
+const Legend = () => (
+  <div className="legend">
+    <p>Spring - Summer - Fall - Winter</p>
+  </div>
+);
 
 export default Legend;
