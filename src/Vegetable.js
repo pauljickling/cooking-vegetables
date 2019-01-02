@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-const Vegetable = () => [
-  <div key="1">Vegetable</div>,
+const Vegetable = (props) => [
+  <div key="1">{props.name}</div>,
   <div key="2">Spring, Fall</div>,
   <div key="3"></div>,
   <div key="4">Spring, Fall</div>,

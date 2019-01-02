@@ -10,7 +10,7 @@ const Chart = () => (
       <p>Roast</p>
       <p>Long-Cook</p>
       <p>Grill</p>
-      <Vegetable />
+      <Vegetable name="Asparagus"/>
     </div>
 );
 
