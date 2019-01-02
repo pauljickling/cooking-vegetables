@@ -16,12 +16,6 @@
   color: #61dafb;
 }
 
-table.chart {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-td {
-  border: 1px solid black;
-  padding: 5px;
+div.chart {
+  display: grid;
 }
