@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Vegetable from './Vegetable.js';
 
 const Chart = () => (
     <div className="chart">
@@ -9,7 +10,7 @@ const Chart = () => (
       <p>Roast</p>
       <p>Long-Cook</p>
       <p>Grill</p>
-      <p>Artichokes</p>
+      <Vegetable />
     </div>
 );
 
