@@ -21,3 +21,35 @@ div.chart {
   grid-gap: 10px;
   grid-template-columns: repeat(7, 1fr);
 }
+
+.spring {
+  background-color: green;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  clip-path: circle(50%);
+}
+
+.summer {
+  clip-path: circle(50%);
+  display: inline-block;
+  background-color: yellow;
+  width: 30px;
+  height: 30px;
+}
+
+.fall {
+  clip-path: circle(50%);
+  display: inline-block;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+}
+
+.winter {
+  display: inline-block;
+  clip-path: circle(50%);
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+}
