@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Vegetable = (props) => [
   <div key="1">{props.name}</div>,
