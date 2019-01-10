@@ -5,12 +5,12 @@ const Chart = () => (
     <div className="chart">
       {/* Header */}
       <div></div>
-      <p>Blanch</p>
-      <p>Saute</p>
-      <p>Steamy Saute</p>
-      <p>Roast</p>
-      <p>Long-Cook</p>
-      <p>Grill</p>
+      <p><strong>Blanch</strong></p>
+      <p><strong>Saute</strong></p>
+      <p><strong>Steamy Saute</strong></p>
+      <p><strong>Roast</strong></p>
+      <p><strong>Long-Cook</strong></p>
+      <p><strong>Grill</strong></p>
 
       {/* Vegetable lists */}
       <Vegetable name="Artichokes" />
