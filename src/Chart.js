@@ -13,7 +13,7 @@ const Chart = () => (
       <p><strong>Grill</strong></p>
 
       {/* Vegetable lists */}
-      <Vegetable name="Artichokes" />
+      <Vegetable name="Artichokes" blanch={<div><div className='spring'></div><div className='fall'></div></div>} steamySaute={<div><div className='spring'></div><div className='fall'></div></div>} roast={<div><div className='spring'></div><div className='fall'></div></div>} longCook={<div><div className='spring'></div><div className='fall'></div></div>} grill={<div><div className='spring'></div><div className='fall'></div></div>}/>
       <Vegetable name="Asparagus" />
       <Vegetable name="Beets" />
       <Vegetable name="Broccoli" />

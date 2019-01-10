@@ -28,6 +28,7 @@ div.chart {
   width: 30px;
   height: 30px;
   clip-path: circle(50%);
+  margin: 5px;
 }
 
 .summer {
@@ -36,6 +37,7 @@ div.chart {
   background-color: yellow;
   width: 30px;
   height: 30px;
+  margin: 5px;
 }
 
 .fall {
@@ -44,6 +46,7 @@ div.chart {
   background-color: orange;
   width: 30px;
   height: 30px;
+  margin: 5px;
 }
 
 .winter {
@@ -52,4 +55,5 @@ div.chart {
   background-color: blue;
   width: 30px;
   height: 30px;
+  margin: 5px;
 }
