@@ -1,6 +1,11 @@
 import React from 'react';
 import Vegetable from './Vegetable.js';
 
+const spring = <div className='spring'></div>;
+const summer = <div className='summer'></div>;
+const fall = <div className='fall'></div>;
+const winter = <div className='winter'></div>;
+
 const Chart = () => (
     <div className="chart">
       {/* Header */}
@@ -13,8 +18,8 @@ const Chart = () => (
       <p className="vegetable"><strong>Grill</strong></p>
 
       {/* Vegetable lists */}
-      <Vegetable name="Artichokes" blanch={<div><div className='spring'></div><div className='fall'></div></div>} steamySaute={<div><div className='spring'></div><div className='fall'></div></div>} roast={<div><div className='spring'></div><div className='fall'></div></div>} longCook={<div><div className='spring'></div><div className='fall'></div></div>} grill={<div><div className='spring'></div><div className='fall'></div></div>}/>
-      <Vegetable name="Asparagus" />
+      <Vegetable name="Artichokes" blanch={[spring, fall]} steamySaute={[spring, fall]} roast={[spring, fall]} longCook={[spring, fall]} grill={[spring, fall]}/>
+      <Vegetable name="Asparagus" blanch={spring} saute={spring} steamySaute={spring} roast={spring} grill={spring}/>
       <Vegetable name="Beets" />
       <Vegetable name="Broccoli" />
       <Vegetable name="Broccoli Rabe" />
