@@ -21,9 +21,10 @@ const Chart = () => (
       <Vegetable name="Artichokes" blanch={[spring, fall]} steamySaute={[spring, fall]} roast={[spring, fall]} longCook={[spring, fall]} grill={[spring, fall]}/>
 
       <Vegetable name="Asparagus" blanch={spring} saute={spring} steamySaute={spring} roast={spring} grill={spring}/>
-      <Vegetable name="Beets" blanch={winter} steamySaute={winter} roast={winter}/>
 
-      <Vegetable name="Broccoli" blanch={winter} steamySaute={winter} roast={winter} longCook={winter} grill={winter}/>
+      <Vegetable name="Beets" blanch={[spring, summer, fall, winter]} steamySaute={[spring, summer, fall, winter]} roast={[spring, summer, fall, winter]}/>
+
+      <Vegetable name="Broccoli" blanch={[spring, summer, fall, winter]} steamySaute={[spring, summer, fall, winter]} roast={[spring, summer, fall, winter]} longCook={[spring, summer, fall, winter]} grill={[spring, summer, fall, winter]}/>
 
       <Vegetable name="Broccoli Rabe" blanch={[spring, fall, winter]} steamySaute={[spring, fall, winter]} roast={[spring, fall, winter]} longCook={[spring, fall, winter]} grill={[spring, fall, winter]}/>
 
